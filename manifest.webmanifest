@@ -1,0 +1,22 @@
+{
+  "short_name": "Color Hunt",
+  "name": "Color Hunt",
+  "description": "Color Palettes for Designers and Artists",
+  "icons": [
+    {
+      "src": "public/color-hunt-icon-192.png?v4",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/color-hunt-icon-512.png?v4",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}

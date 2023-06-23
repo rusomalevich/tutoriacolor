@@ -19,7 +19,7 @@
 .color:nth-child(3) {height: 18%;}
 .color:nth-child(4) {height: 15%; border-radius: 0px 0px 30px 30px;}
 
-.textoColor {padding:10px; background-color:#eeeeee34; border-radius: 0 7px 0 0; opacity: 0; transition: .3s; position: absolute; left: 0; bottom:0;}
+.textoColor {padding:10px; background-color:#eeeeee80; border-radius: 0 7px 0 0; opacity: 0; transition: .3s; position: absolute; left: 0; bottom:0;}
 .color:hover > .textoColor {opacity: 1;}
 
 .meta {

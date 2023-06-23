@@ -1,7 +1,8 @@
 import React from 'react'
-import './card.css'
+import './colorcard.css'
 import ButtonBorder from '../ButtonBorder/ButtonBorder'
 
+/*
 const Card = ({colors, likes, horas}) => {
     let colorHex=["random"]
     let index=0
@@ -19,7 +20,8 @@ const Card = ({colors, likes, horas}) => {
         console.log(colorHex[index])
     }
     */
-    
+
+    /*
 
   return (
       <div className='card'>
@@ -40,3 +42,26 @@ const Card = ({colors, likes, horas}) => {
 }
 
 export default Card
+*/
+
+function ColorCard(props) {
+    const {colors, likes, horas} = props
+    return (
+        <div className='card'>
+            <div className='colors'>
+                {colors.map((color, index) => (
+                    <div className='color' style={{ "backgroundColor": "#" + color }} key={index}><div className='textoColor'>#{color}</div></div>
+                ))}
+
+            </div>
+            <div className='meta'>
+                <ButtonBorder>
+                    <div className='likes'><i className='icon' icon='like'></i>{likes}</div>
+                </ButtonBorder>
+                <div className='horas'>{horas}</div>
+            </div>
+        </div>
+    );
+}
+
+export default ColorCard

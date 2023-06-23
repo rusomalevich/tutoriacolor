@@ -13,4 +13,9 @@
     display: inline-flex;
     align-items: center;
     padding-right: 12px;
+    transition: .3s;
+}
+
+.btnAddToChrome:hover{
+    background-color: #f9f9f9;
 }
