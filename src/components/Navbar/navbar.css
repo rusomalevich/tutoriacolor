@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    position: sticky;
+    max-width: 1700px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnAddToChrome {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 12px;
+}

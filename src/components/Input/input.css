@@ -1,0 +1,28 @@
+.searchContainer {
+    position:relative;
+    height: 60px;
+    max-width: 100%;
+    width: 45%;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    background-image: url(../../assets/color-hunt-icons.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 0;
+    width: 30px;
+    height: 100%;
+}
+
+.inputSearch {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.inputSearch.border {
+    border-radius: 40px;
+}
